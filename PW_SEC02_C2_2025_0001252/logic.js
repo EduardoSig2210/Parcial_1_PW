@@ -11,12 +11,12 @@ function changeTitle() {
     let title = document.querySelector('.bodyTitle');
     const textito = title.textContent;
     
-    if (textito == "Ejercicio practico-Programacion Web") {
+    if (textito == "University Demo") {
         title.innerText = "HTML & CSS: Curso práctico avanzado";
         document.title = "HTML & CSS: Curso práctico avanzado"; // <- cambia también la pestaña
     } else {
-        title.innerText = "Ejercicio practico-Programacion Web";
-        document.title = "Ejercicio practico-Programacion Web";
+        title.innerText = "University Demo";
+        document.title = "Ejercicio practico";
     }
 }
 
